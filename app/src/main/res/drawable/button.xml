@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item >
+        <layer-list  android:top="3dp" android:left="3dp" android:right="3dp" android:bottom="3dp">
+            <!-- shadow (밑으로) : 그림자 -->
+            <item android:top="1dp">
+                <shape>
+                    <corners android:radius="3dp" />
+                    <solid android:color="#4D000000" />
+                </shape>
+            </item>
+            <!-- background (위로) -->
+            <item>
+                <shape>
+                    <corners android:radius="3dp" />
+                    <solid android:color="@color/chunjiin2" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>
